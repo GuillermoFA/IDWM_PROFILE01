@@ -1,14 +1,22 @@
+*{
+    color: white;
+}
+
 .imagen{ 
     width: 100px; /* Tamaño deseado para las imágenes */
     height: 100px;
     object-fit: cover;/* Opcional: para recortar las imágenes al tamaño especificado */
 }
 
-.imagenCarrusel{
-    width: 300px;
-    height: 500px;
-    object-fit: cover;
-    image-rendering: auto;
+.bg-cyanG{
+    background-color: #03333c;
 }
 
+.border-azul{
 
+    border-color: #0dc6ec ;
+}
+
+.bg-cyan{
+    background-color: #076578;
+}

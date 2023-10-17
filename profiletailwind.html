@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 01 IDWB</title>
+    <!-- Enlace al archivo CSS de Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+</head>
+<body class="bg-black pl-20 pr-20 py-4">
+    <header class="container p-4 text-4xl text-white font-bold italic text-center bg-cyanG border-4 border-blue-400 rounded-full">
+        <h1>Guillermo Josué Fuentes Ávila</h1>
+    </header>
+
+    <section class="container p-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="text-white mb-5 italic bg-cyan bg-opacity-50 border-4 border-yellow-500 rounded-3xl">
+                <h2 class="text-center mt-4 text-3xl font-semibold">Estudiante de pregrado</h2>
+                <p class="ml-2">Estudiante de Ingeniería Civil en Computación e Informática en Universidad Católica del Norte, Antofagasta.</p>
+            </div>
+            <div class="text-blue-500 mb-5 italic bg-cyan bg-opacity-50 border-4 border-yellow-500 rounded-3xl">
+                <h3 class="text-center text-white font-semibold text-3xl ">Datos Personales</h3>
+                <ul class="list-disc">
+                    <li class="text-white ml-8">Edad: 23</lic>
+                    <li class="text-white ml-8">País: Chile</li>
+                    <li class="ml-8">Ciudad: Antofagasta</li>
+                    <li class="ml-8">Correo Electrónico: <a class="underline text-white" href="mailto:guillermo.fuentes01@alumnos.ucn.cl">guillermo.fuentes01@alumnos.ucn.cl</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="text-center text-3xl pl-10 text-center mb-5 italic bg-cyan bg-opacity-50 border-4 border-yellow-500 border-3 rounded-3xl">
+                <h3 class="text-center mt-4 text-3xl font-semibold">Redes Sociales</h3>
+                <div class="flex flex-wrap justify-item-center">
+                    <a href="https://github.com/GuillermoFA">
+                        <img class="imagen " src="images/gitpng-removebg-preview.png" alt="Github">
+                    </a>
+                    <a href="https://www.instagram.com/guille.yb/">
+                        <img class="imagen" src="images/PNGINSTAGRAM-removebg-preview.png" alt="Instagram">
+                    </a>
+                    <a href="https://twitter.com/straiikkk">
+                        <img class="imagen" src="images/twitterPNG-removebg-preview.png" alt="Twitter">
+                    </a>
+
+                </div>
+            </div>
+            <div class="text-blue-500 mb-5 italic bg-cyan bg-opacity-50 border-4 border-yellow-500  rounded-3xl">
+                <h3 class="text-center mt-4 text-3xl font-semibold">Intereses</h3>
+                <ul class="list-disc">
+                    <li class="ml-8">Conocer nuevos Frameworks</li>
+                    <li class="ml-8">Jugar con mis amigos en línea</li>
+                    <li class="ml-8">Conducir</li>
+                </ul>
+            </div>
+        </div>
+
+        
+        <div class="  p-2 bg-cyan col-span-12 italic border-4 border-yellow-500 rounded-3xl">
+            <h3 class="text-center text-white font-semibold text-3xl pb-2">Avance en Frameworks</h3>
+            <div class="bg-blue-200 bg-opacity-80">
+                <table class="table-auto w-full">
+                    <thead class=" border border-black">
+                        <tr class="  text-center bg-gray-300">
+                            <th class="text-black px-4 py-2">Framework</th>
+                            <th class="text-black px-4 py-2 font-bold">Avance</th>
+                        </tr>
+                    </thead>
+                    <tbody class="">
+                        <tr class=" border border-black text-center">
+                            <td class=" text-black bg-gray-50">React</td>
+                            <td class="text-black bg-gray-50">Básico</td>
+                        </tr>
+                        <tr class=" border border-black text-center">
+                            <td class="text-black bg-gray-50">Laravel</td>
+                            <td class="text-black bg-gray-50">Intermedio</td>
+                        </tr>
+                        <tr class=" border border-black text-center">
+                            <td class="text-black bg-gray-50">Angular</td>
+                            <td class="text-black bg-gray-50">Básico</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
